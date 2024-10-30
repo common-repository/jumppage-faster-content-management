@@ -1,0 +1,188 @@
+
+
+div#jumppage_menu_meta div.inside h3.menutitle
+{
+	font-size: 15px,
+}
+
+.clearfix
+{
+	clear: both;
+}
+
+/* 
+	LEVEL ONE
+*/
+
+#jumppage_menu_meta ul.site-navigation {
+    background: none repeat scroll 0 0 #0074a2;
+    clear: both;
+    height: 39px;
+    margin-top: 7px;
+    position: relative;
+}
+
+#jumppage_menu_meta ul.site-navigation li  { font-weight: normal; float: left; zoom: 1; background: #0074a2; }
+#jumppage_menu_meta ul.site-navigation a:hover		            { color: #fff; background: #2294c1;}
+#jumppage_menu_meta ul.site-navigation a:active                { color: #fff; background: #2294c1; }
+#jumppage_menu_meta ul.site-navigation li a { 
+	display: block; 
+	padding: 10px 20px; 
+	border-right: 1px solid #fff;
+	color: #fff; 
+	font-style: normal;
+	font-variant: normal;
+	border-bottom: none;
+	text-decoration: none;
+
+}
+/*#jumppage_menu_meta ul.site-navigation li:last-child a         { border-right: none; } /* Doesn't work in IE */
+#jumppage_menu_meta ul.site-navigation li:hover   { 
+	background: #2294c1;
+	color: #fff; 
+	position: relative; }
+
+#jumppage_menu_meta ul.site-navigation li.hover a
+{ color: #fff; }
+
+
+
+/* 
+	LEVEL TWO
+*/
+#jumppage_menu_meta ul.site-navigation ul{ 
+width: 220px;
+visibility: hidden; 
+position: absolute;
+top: 100%; 
+left: 0;
+border-left: 1px solid #e2e2e2;
+border-right: 1px solid #e2e2e2; }
+
+#jumppage_menu_meta ul.site-navigation ul li { 
+font-weight: normal; 
+background: #f6f6f6; 
+color: #000; 
+border-bottom: 1px solid #e2e2e2; 
+float: none; 
+margin: 0;
+max-width: 220px;
+
+}
+									  
+                                    /* IE 6 & 7 Needs Inline Block */
+#jumppage_menu_meta ul.site-navigation ul li a {
+    border-right: medium none;
+    color: #0074a2;
+    display: block;
+    margin: 0 0 0 -1px;
+    padding: 10px;
+    width: 202px;
+}
+
+ div#jumppage_menu_meta ul.site-navigation li > ul.sub-menu
+ {
+ 	z-index: 10000;
+ 	background: #fff;
+
+ }
+
+ #jumppage_menu_meta ul.site-navigation li:hover > ul 
+{ 
+visibility: visible; 
+overflow: visible;
+}
+
+#jumppage_menu_meta ul.site-navigation ul li
+{
+	display: block;
+
+}
+
+
+/* 
+	LEVEL THREE
+*/
+#jumppage_menu_meta ul.site-navigation ul ul 	
+{
+	left: 100%; 
+	top: 0; 
+	visibility: hidden;
+}
+
+
+div#jumppage_menu_meta ul.site-navigation li ul.sub-menu li:hover ul.sub-menu
+{
+	z-index: 1000;
+	visibility: visible;
+	display: block;
+}
+
+div#jumppage_menu_meta.postbox ul.site-navigation li.menu-item-has-children ul.sub-menu li.menu-item-has-children:hover > ul.sub-menu,div#jumppage_menu_meta.postbox ul.site-navigation li.menu-item-has-children ul.sub-menu li.menu-item-has-children.hover > ul.sub-menu
+{
+	visibility: visible;
+}
+
+
+.menu-item-has-children:hover
+{
+		visibility: visible;
+}
+
+
+
+/* tabs */
+div#jumppage_menu_meta ul.tabnav
+{
+	clear: both;
+	position: relative;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+
+div#jumppage_menu_meta ul.tabnav li
+{
+	float: left;
+	margin-right: -1px;
+	margin-bottom: -1px;
+
+
+}
+
+div#jumppage_menu_meta ul.tabnav li:first-child
+{
+	margin-left: 0px;
+	
+}
+
+
+div#jumppage_menu_meta ul.tabnav li a
+{
+padding: 10px 20px;
+margin-top: 10px;
+text-decoration: none;
+color: #535353
+
+}
+
+div#jumppage_menu_meta .hide { position: absolute; top: -9999px; left: -9999px; }
+
+div#jumppage_menu_meta ul.tabnav {
+    margin: 0 0 10px;
+    overflow: hidden;
+    border-bottom: 1px solid #acacac;
+}
+div#jumppage_menu_meta ul.tabnav li a { display: block; background: transparent; color: #535353; font-size: 14px; text-align: center; border: 1px solid #acacac; }
+
+div#jumppage_menu_meta ul.tabnav li a:hover, div#jumppage_menu_meta ul.tabnav li a:focus, div#jumppage_menu_meta  ul.tabnav li a.current  {padding: 15px 20px; margin-top: 0;}
+
+
+
+/* Menu title */
+
+div#jumppage_menu_meta h3.hndle {
+    cursor: pointer;
+    margin: 0;
+    padding: 15px;
+}
